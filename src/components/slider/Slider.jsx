@@ -2,14 +2,14 @@ import React, { useRef, useState, useEffect } from "react";
 import lool1 from "./../../Assets/lool1.jpg";
 import lool2 from "./../../Assets/lool2.jpg";
 import lool3 from "./../../Assets/lool3.jpg";
-
+import lool4 from "./../../Assets/lool4.jpg";
 import rightArrow from "./right.png";
 import leftArrow from "./left.png";
 import './style.css';
 
 const Slider = () => {
   const imageContainerRef = useRef(null);
-  const images = [lool1, lool2, lool3];
+  const images = [lool1, lool2, lool3, lool4];
   const [visibleIndexes, setVisibleIndexes] = useState([0]);
 
   useEffect(() => {
