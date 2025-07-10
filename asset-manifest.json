@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/poarschecars/static/css/main.617d2e48.css",
-    "main.js": "/poarschecars/static/js/main.90c15551.js",
+    "main.css": "/poarschecars/static/css/main.5170955b.css",
+    "main.js": "/poarschecars/static/js/main.4d37cd02.js",
     "static/js/787.d4aba7ab.chunk.js": "/poarschecars/static/js/787.d4aba7ab.chunk.js",
     "static/media/lool4.jpg": "/poarschecars/static/media/lool4.e5e6677a60aab6c900f1.jpg",
     "static/media/lool3.jpg": "/poarschecars/static/media/lool3.2ed57130c69568e69c3a.jpg",
@@ -17,12 +17,12 @@
     "static/media/logo.png": "/poarschecars/static/media/logo.246a452d3d8e846a0380.png",
     "static/media/lol2.png": "/poarschecars/static/media/lol2.3d79abcbeb49a29cb126.png",
     "index.html": "/poarschecars/index.html",
-    "main.617d2e48.css.map": "/poarschecars/static/css/main.617d2e48.css.map",
-    "main.90c15551.js.map": "/poarschecars/static/js/main.90c15551.js.map",
+    "main.5170955b.css.map": "/poarschecars/static/css/main.5170955b.css.map",
+    "main.4d37cd02.js.map": "/poarschecars/static/js/main.4d37cd02.js.map",
     "787.d4aba7ab.chunk.js.map": "/poarschecars/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.617d2e48.css",
-    "static/js/main.90c15551.js"
+    "static/css/main.5170955b.css",
+    "static/js/main.4d37cd02.js"
   ]
 }
