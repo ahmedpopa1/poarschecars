@@ -1,12 +1,12 @@
 import  { React, useState } from 'react';
 import './addToCard.css';
 import productsSchema from './../Search/Cars';
-
-
+import { useNavigate } from "react-router-dom";
 
 
 export default function AddToCart() {
     const year= "2019";
+    const navigate = useNavigate();
     const [items, setItems] = useState([...productsSchema.filter((e)=>{
       return(e.year.includes(year))
     }).map((product) => ({ ...product }))]);
@@ -31,6 +31,11 @@ export default function AddToCart() {
     return (
       <>
         <div className='cartp'>
+          <div className="go-back-container">
+          <button className="go-back" onClick={() => navigate(-1)}>
+            ⬅ Go Back
+          </button>
+        </div>
           <h2 className='cart_title'> Your cart </h2>
           <div className='cart_content'>
             {items.filter((e) => e.year.includes(year)).map((e, index) => {
